@@ -1,3 +1,7 @@
-const version = "2.0.0";
+import Nestable from "./nestable/src/index";
 
-export default version;
+export default class Index {
+  render() {
+    return <Nestable />;
+  }
+}
